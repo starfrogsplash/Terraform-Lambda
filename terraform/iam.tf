@@ -1,7 +1,7 @@
 resource "aws_iam_role" "lambda_exec_role" {
   name = "my-lambda-exec-role"
 
-  // permission boundary
+  // permission boundary (you dont need this if you dont have one set in your aws account)
   permissions_boundary = var.custom_policy_arn
 
   assume_role_policy = jsonencode({
