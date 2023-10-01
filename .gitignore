@@ -25,3 +25,4 @@ terraform/.terraform.rc
 terraform/crash.log
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
