@@ -26,7 +26,6 @@ npm run build
 
 ```bash
 terraform init
-terraform apply
 ```
 
 4. Review the Terraform configuration in the terraform directory, including main.tf, variables.tf, and outputs.tf, to ensure it matches your desired AWS setup.
